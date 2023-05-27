@@ -4,10 +4,13 @@
 <style>
 body  {
 
-  background-color: lightpink;
+  background-color:#ffff77;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.dark-mode {
+  background-color: darkblue;
+  color: white;
 </style>
 </head>
 <head>
@@ -37,7 +40,18 @@ font-weight: 850;
       <p class="p2">Here you'll get to know my daily schedule!</p>
      
       <a href="./myschedule">Read the schedule>> </a>
-      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br>
       <p class="p3">*******Hover over the Hours!*******</p>
+      <footer class = "end">   
+    
+    <button onclick="myFunction()">☀️ ⇆ 🌙</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+</footer>
    </body>
 </html>
