@@ -4,9 +4,16 @@
 <style>
 body  {
 
-  background-color: lightpink;
+  background-color: #ffff77;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.dark-mode {
+  background-color: darkblue;
+  color: white;}
+  p.end{
+font-family: "Times New Roman", Times, serif;
+ text-align: centre;
 }
 </style>
 </head>
@@ -26,6 +33,19 @@ body  {
    <body>
       <h1>Welcome to my World! ⭐️</h1>
       <p class="p2">Ready to have amazing Experiences? 🎉</p>
-       <a href="./about">For stepping further>> </a>
+       <a href="./about">For stepping further>> 
+       </a>
+       <br><br><br><br><br><br><br><br><br><br>
+       <footer class = "end"> </footer>
+    
+    <button onclick="myFunction()">☀️ ⇆ 🌙</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
    </body>
 </html>
